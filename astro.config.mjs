@@ -16,7 +16,7 @@ export default defineConfig({
     starlightObsidian({
       // Disable generating vault pages when deploying on Vercel.
       //  skipGeneration: !!process.env['VERCEL'],
-      vault: '../TEST_PUBLISH'
+      vault: 'TEST_PUBLISH'
     })],
     sidebar: [{
       label: 'My Docs',
